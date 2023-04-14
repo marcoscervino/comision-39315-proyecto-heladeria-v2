@@ -8,14 +8,26 @@ Index
 Footer
 */
 
-@import "typo";
-@import "variables";
-@import "mixins";
-@import "reset";
-@import "header";
-@import "main-index";
-@import "main-contacto";
-@import "main-fabrica";
-@import "main-sabores";
-@import "main-ubicacion";
-@import "footer";
+/*COLORES*
+#C4D7E0
+black
+#545454;
+#A2CFE4;
+#48b0e0;
+white;
+#ffffff;
+#F8F9D7;
+*/
+
+@import "./base/typo";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-contacto";
+@import "./layout/main-fabrica";
+@import "./layout/main-sabores";
+@import "./layout/main-ubicacion";
+@import "./layout/footer";
+@import "./components/bootstrap"

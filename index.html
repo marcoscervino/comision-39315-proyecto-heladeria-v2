@@ -5,16 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heladeria Snow Ice Cream</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
+        <div class="barra-nav">
         <!-- LOGO -->
-        <div>
-            <img src="./assets/navbar/logo-snowback.png" alt="LOGO">
+        <div class="logo">
+            <img src="./assets/navbar/logo-snow.png" alt="LOGO">
         </div>
         <!-- Barra de navegacion -->
-        <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid container-navbar">
+              <a class="navbar-brand" href="./index.html">INICIO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/fabrica.html">FABRICA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/sabores.html">SABORES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/ubicacion.html">UBICACION</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <nav>
             <ul>
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="./pages/fabrica.html">FABRICA</a></li>
@@ -22,33 +48,63 @@
                 <li><a href="./pages/ubicacion.html">UBICACION</a></li>
                 <li><a href="./pages/contacto.html">CONTACTO</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <!-- Barra social media -->
-        <div>
+        <div class="social-media">
             <a href=""><img src="./assets/navbar/Facebook.png" alt=""></a>
             <a href=""><img src="./assets/navbar/Instagram.png" alt=""></a>
             <a href=""><img src="./assets/navbar/WhatsApp.png" alt=""></a>
         </div>
+        </div>
         <!-- Separador NavBar -->
-        <div>
-            <p>separador</p>
+        <div class="separador">
+            
         </div>
     </header>
     <!-- INICIO MAIN -->
     <main>
-        <div>
+        <div class="main-back">
             <section>
                 <div>
                     <h1>Somos Snow Ice Cream</h1>
-                    <p>Bienvenidos a nuestra heladería artesanal, donde la calidad y la creatividad se combinan para brindarte una experiencia única y deliciosa. Todos nuestros helados son elaborados a mano, utilizando solo los mejores ingredientes frescos y naturales.</p>
-                    <p>En nuestra heladería, encontrarás sabores clásicos como vainilla y chocolate, pero también te sorprenderás con nuestras creaciones innovadoras.</p>
+                    <h2>Bienvenidos a nuestra heladería artesanal, donde la calidad y la creatividad se combinan para brindarte una experiencia única y deliciosa. Todos nuestros helados son elaborados a mano, utilizando solo los mejores ingredientes frescos y naturales.</h2>
+                    <h2>En nuestra heladería, encontrarás sabores clásicos como vainilla y chocolate, pero también te sorprenderás con nuestras creaciones innovadoras.</h2>
                 </div>
             </section>
-            <div>
-                <!-- Carrousel -->
+            <div class="container-carrousel container-fluid">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/ubicacion/heladeria-ubicacion1v4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/ubicacion/heladeria-ubicacion2v4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/ubicacion/heladeria-ubicacion3v4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./assets/ubicacion/heladeria-ubicacion4v4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./assets/ubicacion/heladeria-ubicacion5v4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./assets/ubicacion/heladeria-ubicacion6v4.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
             <div>
-                <h2>Descubre la autentica pasion por el helado</h2>
+                <h3>Descubre la autentica pasion por el helado</h3>
             </div>
 
         </div>
