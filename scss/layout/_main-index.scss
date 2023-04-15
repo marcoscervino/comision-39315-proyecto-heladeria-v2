@@ -1,10 +1,10 @@
 
 .main-back{
-    background-image: url(../../assets/helados-backgroundv2.png);
-    background-color: #202020;
+    background-image: url(file:///G:/CODER/proyecto-coder-v2/assets/helados-backgroundv2.jpg);
     background-repeat: repeat-y;
     width: 100%;
-    background-size: 150%;
+    background-size: 100%;
+    .main-index{
     section{
         @include flex (row,none,center,center);
         text-align: center;
@@ -12,7 +12,7 @@
             width: 95%;
             h1{
                 font-size: 8rem;
-                color: #A2CFE4;
+                color: $colortext-h1;
                 margin-top: 7rem;
                 font-family: 'Crimson Text', serif;
             }
@@ -25,14 +25,15 @@
             }
         }
     }
+    }
     div{
         h3{
             font-family: 'Crimson Text', serif;
             font-size: 4.8rem;
             color: #ffffff;
             text-align: center;
-            margin-top: 10rem;
-            padding-bottom: 10rem;
+            margin-top: 5rem;
+            padding-bottom: 5rem;
         }
     }
 }

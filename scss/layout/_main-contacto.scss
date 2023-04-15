@@ -1,0 +1,58 @@
+.grid-contacto{
+    @include grid(2fr 2fr, 85vh );
+    align-items: center;
+    justify-items: center;
+    section{
+        div{
+            div{
+                label{
+                    font-size: 2rem;
+                    color: #A2CFE4;
+                }
+            }
+        }
+    }
+}
+
+.titulo-contacto{
+    padding-top: 0rem;
+    h1{
+    font-size: 8rem;
+    color: #A2CFE4;
+    margin-top: 2rem;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    }
+}
+
+.boton-form{
+    font-size: 3rem;
+    color: #A2CFE4;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #A2CFE4;
+    color: black;
+    border-color: #A2CFE4;
+    font-family: 'Poppins';
+}
+
+.contact-text-botom{
+    h2{
+    font-family: 'Crimson Text', serif;
+    font-size: 3rem;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    }
+}
+
+.contacto-img{
+    padding-top: 5rem;
+    img{
+        scale: 1.2;
+        margin-left: 10rem;
+        margin-top: -5rem;
+        border-radius: 10px;
+    }
+}

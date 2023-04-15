@@ -1,0 +1,35 @@
+.main-fabrica{
+    section{
+        div{
+            h1{
+                font-size: 8rem;
+                color: $colortext-h1;
+                font-family: 'Crimson Text', serif;
+                padding-top: 7rem;
+                text-align: center;
+            }
+            h2{
+                font-family: 'Crimson Text', serif;
+                font-size: 4.8rem;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 5rem;
+            }
+            h3{
+                font-size: 2rem;
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                margin-bottom: 5rem;
+                margin-top: 3rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.container-video{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}

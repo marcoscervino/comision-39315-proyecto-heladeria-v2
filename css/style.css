@@ -19,6 +19,8 @@ white;
 */
 /*PARA TIPOGRAFIAS*/
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -62,26 +64,25 @@ html {
   height: 1rem; }
 
 .main-back {
-  background-image: url(../../assets/helados-backgroundv2.png);
-  background-color: #202020;
+  background-image: url(file:///G:/CODER/proyecto-coder-v2/assets/helados-backgroundv2.jpg);
   background-repeat: repeat-y;
   width: 100%;
-  background-size: 150%; }
-  .main-back section {
+  background-size: 100%; }
+  .main-back .main-index section {
     display: flex;
     flex-direction: row;
     flex-wrap: none;
     justify-content: center;
     align-items: center;
     text-align: center; }
-    .main-back section div {
+    .main-back .main-index section div {
       width: 95%; }
-      .main-back section div h1 {
+      .main-back .main-index section div h1 {
         font-size: 8rem;
         color: #A2CFE4;
         margin-top: 7rem;
         font-family: 'Crimson Text', serif; }
-      .main-back section div h2 {
+      .main-back .main-index section div h2 {
         font-size: 2rem;
         font-family: 'Poppins', sans-serif;
         color: white;
@@ -92,13 +93,183 @@ html {
     font-size: 4.8rem;
     color: #ffffff;
     text-align: center;
-    margin-top: 10rem;
-    padding-bottom: 10rem; }
+    margin-top: 5rem;
+    padding-bottom: 5rem; }
 
 .container-carrousel {
   width: 60%;
   justify-content: center;
   padding-top: 3rem; }
+
+.grid-contacto {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 85vh;
+  align-items: center;
+  justify-items: center; }
+  .grid-contacto section div div label {
+    font-size: 2rem;
+    color: #A2CFE4; }
+
+.titulo-contacto {
+  padding-top: 0rem; }
+  .titulo-contacto h1 {
+    font-size: 8rem;
+    color: #A2CFE4;
+    margin-top: 2rem;
+    font-family: 'Crimson Text', serif;
+    text-align: center; }
+
+.boton-form {
+  font-size: 3rem;
+  color: #A2CFE4;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #A2CFE4;
+  color: black;
+  border-color: #A2CFE4;
+  font-family: 'Poppins'; }
+
+.contact-text-botom h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 3rem;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-top: 30px; }
+
+.contacto-img {
+  padding-top: 5rem; }
+  .contacto-img img {
+    scale: 1.2;
+    margin-left: 10rem;
+    margin-top: -5rem;
+    border-radius: 10px; }
+
+.main-fabrica section div h1 {
+  font-size: 8rem;
+  color: #A2CFE4;
+  font-family: 'Crimson Text', serif;
+  padding-top: 7rem;
+  text-align: center; }
+
+.main-fabrica section div h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 4.8rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5rem; }
+
+.main-fabrica section div h3 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  text-align: center; }
+
+.container-video {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem; }
+
+.titulo-sabores {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+  text-align: center; }
+  .titulo-sabores div h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12.8rem;
+    color: #A2CFE4;
+    font-weight: 700;
+    text-align: center; }
+  .titulo-sabores div h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 6.4rem;
+    font-style: italic;
+    color: white;
+    text-align: center; }
+
+.link-sabores a {
+  background-color: #A2CFE4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  width: 100%; }
+
+.grid-sabores {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, 50vh);
+  align-items: center;
+  justify-items: center; }
+
+.item1-grid {
+  background-color: #A2CFE4;
+  padding: 7px 7px 7px 7px;
+  border-radius: 10px; }
+
+.item2-grid {
+  background-color: #A2CFE4;
+  padding: 7px 7px 7px 7px;
+  border-radius: 10px; }
+
+.item3-grid {
+  background-color: #A2CFE4;
+  padding: 7px 7px 7px 7px;
+  border-radius: 10px; }
+
+.item4-grid {
+  background-color: #A2CFE4;
+  padding: 7px 7px 7px 7px;
+  border-radius: 10px; }
+
+.main-ubicacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+  .main-ubicacion section div h1 {
+    font-size: 8rem;
+    color: #A2CFE4;
+    margin-top: 2rem;
+    font-family: 'Crimson Text', serif;
+    text-align: center; }
+  .main-ubicacion section div h2 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    text-align: center; }
+
+.seccion-promos {
+  padding-bottom: 4rem; }
+  .seccion-promos div h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10rem;
+    color: #A2CFE4;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0rem;
+    padding-bottom: 0rem; }
+  .seccion-promos div p {
+    font-family: 'Crimson Text', serif;
+    font-size: 6.4rem;
+    font-style: italic;
+    color: white;
+    text-align: center; }
+  .seccion-promos div img {
+    border-radius: 10px; }
 
 footer {
   margin-top: -5px; }

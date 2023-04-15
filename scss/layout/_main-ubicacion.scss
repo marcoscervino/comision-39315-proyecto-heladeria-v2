@@ -1,0 +1,48 @@
+.main-ubicacion{
+    @include flex (row,wrap,space-evenly,center);
+    section{
+        div{
+            h1{
+                font-size: 8rem;
+                color: #A2CFE4;
+                margin-top: 2rem;
+                font-family: 'Crimson Text', serif;
+                text-align: center;
+            }
+            h2{
+                font-size: 2rem;
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                margin-bottom: 5rem;
+                margin-top: 3rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.seccion-promos{
+    padding-bottom: 4rem;
+    div{
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-size: 10rem;
+            color: #A2CFE4;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 0rem;
+            padding-bottom: 0rem;
+        }
+
+        p{
+            font-family: 'Crimson Text', serif;
+            font-size: 6.4rem;
+            font-style: italic;
+            color: white;
+            text-align: center;
+        }
+        img{
+            border-radius: 10px;
+        }
+    }
+}
