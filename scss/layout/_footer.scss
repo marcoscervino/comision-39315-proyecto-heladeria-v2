@@ -1,0 +1,45 @@
+footer{
+    margin-top: -5px;
+}
+.footer-flex{
+    background-color: $background-footer;
+    @include flex (row,wrap,space-between,center);
+    div{
+        img{
+            margin-right: 1rem;
+        }
+    }
+    section{
+        div{
+            ul{
+                @include flex (row,wrap,center,center);
+                list-style: none;
+                li{
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    padding-left: 2rem;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1.6rem;
+                    img{
+                        padding-right: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-copyright{
+    background-color: #545454;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    p{
+        margin-bottom: 0;
+    }
+}

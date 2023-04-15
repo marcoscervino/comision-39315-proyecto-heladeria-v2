@@ -1,5 +1,7 @@
+
 .main-back{
     background-image: url(../../assets/helados-backgroundv2.png);
+    background-color: #202020;
     background-repeat: repeat-y;
     width: 100%;
     background-size: 150%;
@@ -7,13 +9,16 @@
         @include flex (row,none,center,center);
         text-align: center;
         div{
+            width: 95%;
             h1{
-                font-size: 6.4rem;
+                font-size: 8rem;
                 color: #A2CFE4;
                 margin-top: 7rem;
+                font-family: 'Crimson Text', serif;
             }
             h2{
                 font-size: 2rem;
+                font-family: 'Poppins', sans-serif;
                 color: white;
                 margin-bottom: 5rem;
                 margin-top: 3rem;
@@ -22,6 +27,7 @@
     }
     div{
         h3{
+            font-family: 'Crimson Text', serif;
             font-size: 4.8rem;
             color: #ffffff;
             text-align: center;

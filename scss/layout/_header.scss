@@ -13,19 +13,23 @@
     
 }
 
-.navbar-expand-lg{
-    background-color: aqua;
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar{
-    background-color:aqua;
     margin-top: 5rem
 }
 
 .nav-item{
     padding-left: 5rem;
     padding-right: 5rem;
-    background-color: aqua;
 }
 
 .separador{

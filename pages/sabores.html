@@ -5,34 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heladeria Snow Ice Cream</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <body>
         <header>
+            <div class="barra-nav">
             <!-- LOGO -->
-            <div>
-                <img src="../assets/navbar/logo-snowback.png" alt="LOGO">
+            <div class="logo">
+                <img src="../assets/navbar/logo-snow.png" alt="LOGO">
             </div>
             <!-- Barra de navegacion -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="../pages/fabrica.html">FABRICA</a></li>
-                    <li><a href="../pages/sabores.html">SABORES</a></li>
-                    <li><a href="../pages/ubicacion.html">UBICACION</a></li>
-                    <li><a href="../pages/contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid container-navbar">
+                  <a class="navbar-brand" href="../index.html">INICIO</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/fabrica.html">FABRICA</a>
+                          </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/sabores.html">SABORES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/ubicacion.html">UBICACION</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             <!-- Barra social media -->
-            <div>
+            <div class="social-media">
                 <a href=""><img src="../assets/navbar/Facebook.png" alt=""></a>
                 <a href=""><img src="../assets/navbar/Instagram.png" alt=""></a>
                 <a href=""><img src="../assets/navbar/WhatsApp.png" alt=""></a>
             </div>
+            </div>
             <!-- Separador NavBar -->
-            <div>
-                <p>separador</p>
+            <div class="separador">
+                
             </div>
         </header>
     
