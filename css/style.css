@@ -45,19 +45,19 @@ html {
     margin-right: 1.5rem; }
 
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-family: 'Poppins', sans-serif; }
 
 .nav-link {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-family: 'Poppins', sans-serif; }
 
 .navbar {
   margin-top: 5rem; }
 
 .nav-item {
-  padding-left: 5rem;
-  padding-right: 5rem; }
+  padding-left: 3rem;
+  padding-right: 3rem; }
 
 .separador {
   background-color: #545454;
@@ -310,3 +310,67 @@ footer {
   text-align: center; }
   .footer-copyright p {
     margin-bottom: 0; }
+
+@media (max-width: 1024px) {
+  .item1-grid {
+    width: 90%; }
+    .item1-grid img {
+      width: 100%; }
+  .item2-grid {
+    width: 90%; }
+    .item2-grid img {
+      width: 100%; }
+  .item3-grid {
+    width: 90%; }
+    .item3-grid img {
+      width: 100%; }
+  .item4-grid {
+    width: 90%; }
+    .item4-grid img {
+      width: 100%; } }
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    align-items: center; }
+  .footer-flex {
+    background-color: #F8F9D7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    .footer-flex section div ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      list-style: none; }
+      .footer-flex section div ul li {
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        padding-left: 0rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem; }
+  .footer-logos {
+    padding-bottom: 1rem; } }
+
+/*FABRICA*/
+.main-fabrica section div h3 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-bottom: 0rem;
+  margin-top: 3rem;
+  text-align: center;
+  padding-bottom: 0; }
+
+/*CONTACTO*/
+.grid-contacto section {
+  padding-left: 3rem; }
+
+.contacto-img img {
+  scale: 1;
+  margin-left: 3rem;
+  margin-top: -5rem;
+  border-radius: 10px; }
