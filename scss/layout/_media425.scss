@@ -1,0 +1,113 @@
+@media (max-width: 425px){
+    .barra-nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #C4D7E0;
+        
+            .logo {
+                padding-left: 0rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            
+            }
+            .social-media {
+                margin-top: 0.5rem;
+                margin-right: 0rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+    
+    .navbar{
+        margin-top: 1rem;
+    }
+
+    /*HTML INDEX*/
+
+    .container-carrousel {
+        width: 90%;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    /*HTML FABRICA*/
+
+    .container-video{
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+        .video-fabrica{
+            width: 40rem;
+            height: 40rem;
+        }
+    }
+
+    /*HTML SABORES*/
+
+    .grid-sabores {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 40vh);
+        align-items: center;
+        justify-items: center;
+    }
+
+    .titulo-sabores {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .item4-grid {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    /*HTML UBICACION*/
+
+    .iframe-ubicacion{
+        width: 400px;
+        height: 400px;
+    }
+
+    .seccion-promos{
+        div{ 
+            img {
+        border-radius: 10px;
+        width: 90%;
+        margin-left: 2rem;
+            }
+        }
+    }
+
+    /*HTML CONTACTO*/
+
+    .grid-contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80vh 80vh;
+        align-items: center;
+        justify-items: center;
+        section {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        .contacto-img{
+        padding-top: 5rem;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        img{
+            scale: 1;
+            margin-left: 0rem;
+            margin-top: 0rem;
+            border-radius: 10px;
+        }
+        }
+    }
+}

@@ -64,7 +64,7 @@ html {
   height: 1rem; }
 
 .main-back {
-  background-image: url(file:///G:/CODER/proyecto-coder-v2/assets/helados-backgroundv2.jpg);
+  background-image: url(https://i.imgur.com/20qrjau.jpeg);
   background-repeat: repeat-y;
   width: 100%;
   background-size: 100%; }
@@ -169,7 +169,7 @@ html {
   text-align: center; }
 
 .container-video {
-  width: 90%;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
   padding-bottom: 2rem; }
@@ -355,6 +355,12 @@ footer {
   .footer-logos {
     padding-bottom: 1rem; } }
 
+/*index html*/
+.container-carrousel {
+  width: 90%;
+  justify-content: center;
+  padding-top: 3rem; }
+
 /*FABRICA*/
 .main-fabrica section div h3 {
   font-size: 2rem;
@@ -374,3 +380,163 @@ footer {
   margin-left: 3rem;
   margin-top: -5rem;
   border-radius: 10px; }
+
+@media (max-width: 425px) {
+  .barra-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C4D7E0; }
+    .barra-nav .logo {
+      padding-left: 0rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+    .barra-nav .social-media {
+      margin-top: 0.5rem;
+      margin-right: 0rem;
+      margin-bottom: 0.5rem; }
+  .navbar {
+    margin-top: 1rem; }
+  /*HTML INDEX*/
+  .container-carrousel {
+    width: 90%;
+    justify-content: center;
+    padding-top: 1rem; }
+  /*HTML FABRICA*/
+  .container-video {
+    width: 100%;
+    overflow: hidden;
+    height: auto; }
+    .container-video .video-fabrica {
+      width: 40rem;
+      height: 40rem; }
+  /*HTML SABORES*/
+  .grid-sabores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 40vh);
+    align-items: center;
+    justify-items: center; }
+  .titulo-sabores {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+    text-align: center; }
+  .item4-grid {
+    width: 90%;
+    margin-bottom: 2rem; }
+  /*HTML UBICACION*/
+  .iframe-ubicacion {
+    width: 400px;
+    height: 400px; }
+  .seccion-promos div img {
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 2rem; }
+  /*HTML CONTACTO*/
+  .grid-contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80vh 80vh;
+    align-items: center;
+    justify-items: center; }
+    .grid-contacto section {
+      padding-left: 3rem;
+      padding-right: 3rem; }
+    .grid-contacto .contacto-img {
+      padding-top: 5rem;
+      grid-row-start: 2;
+      grid-row-end: 3; }
+      .grid-contacto .contacto-img img {
+        scale: 1;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        border-radius: 10px; } }
+
+@media (max-width: 375px) {
+  /*FOOTER*/
+  .footer-flex section div ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0; }
+  /*HTML FABRICA*/
+  .container-video .video-fabrica {
+    width: 35rem;
+    height: 40rem; }
+  /*HTML UBICACION*/
+  .main-ubicacion section div h2 {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    text-align: center; }
+  .iframe-ubicacion {
+    width: 350px;
+    height: 350px; }
+  /*HTML CONTACTO*/
+  .grid-contacto section {
+    padding-left: 2rem;
+    padding-right: none; }
+  .titulo-contacto h1 {
+    font-size: 7rem;
+    color: #A2CFE4;
+    margin-top: 2rem;
+    font-family: 'Crimson Text', serif;
+    text-align: center; } }
+
+@media (max-width: 320px) {
+  /*FOOTER*/
+  .footer-flex section div img {
+    margin-right: 0.5rem; }
+  .footer-flex section div ul li {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem; }
+    .footer-flex section div ul li img {
+      padding-right: 0rem; }
+  /*HTML FABRICA*/
+  .main-fabrica section div h1 {
+    font-size: 7rem;
+    color: #A2CFE4;
+    font-family: 'Crimson Text', serif;
+    padding-top: 5rem;
+    text-align: center; }
+  .container-video .video-fabrica {
+    width: 30rem;
+    height: 30rem; }
+  /*HTML UBICACION*/
+  .main-ubicacion section div h2 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    text-align: center; }
+  .iframe-ubicacion {
+    width: 312px;
+    height: 350px; }
+  /*HTML CONTACTO*/
+  .grid-contacto {
+    display: grid;
+    grid-template-columns: 32rem;
+    grid-template-rows: 80vh 80vh;
+    align-items: center;
+    justify-items: center; }
+  .titulo-contacto h1 {
+    font-size: 6.0rem;
+    color: #A2CFE4;
+    margin-top: 2rem;
+    font-family: 'Crimson Text', serif;
+    text-align: center; } }
