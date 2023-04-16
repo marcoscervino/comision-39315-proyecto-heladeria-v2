@@ -1,0 +1,24 @@
+@media (max-width: 514px){
+    /*BARRA NAV*/
+.navbar {
+        margin-top: 1rem;
+    }
+.barra-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C4D7E0;
+    .logo {
+        padding-left: 0rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .social-media {
+        margin-top: 0.5rem;
+        margin-right: 0rem;
+        margin-bottom: 0.5rem;
+    }
+}
+}

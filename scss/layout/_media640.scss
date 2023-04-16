@@ -1,0 +1,35 @@
+@media (max-width: 640px){
+
+.grid-sabores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 40vh);
+    align-items: center;
+    justify-items: center;
+}
+.titulo-sabores {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.item1-grid {
+    width: 50%;
+}
+
+.item2-grid {
+    width: 50%;
+}
+
+.item3-grid {
+    width: 50%;
+}
+
+.item4-grid {
+    width: 50%;
+}
+
+}

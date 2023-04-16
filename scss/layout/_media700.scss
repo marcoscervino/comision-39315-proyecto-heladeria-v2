@@ -1,0 +1,31 @@
+@media (max-width: 700px){
+
+
+
+/*CONTACTO HTML*/
+    .grid-contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80vh 80vh;
+        align-items: center;
+        justify-items: center;
+        section {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        .contacto-img{
+        padding-top: 5rem;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        img{
+            scale: 1;
+            margin-left: 0rem;
+            margin-top: 0rem;
+            border-radius: 10px;
+        }
+        }
+    }
+
+
+
+}
