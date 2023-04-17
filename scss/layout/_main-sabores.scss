@@ -34,9 +34,18 @@
         text-decoration: none;
         color: black;
         width: 100%;
+        padding: 0.5rem 1rem 0.5rem 1rem;
     }
+    
 }
-
+.link-sabores{
+a:hover{
+    transition-duration: 1s;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+    background:linear-gradient(to left top, #3ba7da, #A2CFE4);
+    // background-color: brown
+}
+}
 
 .grid-sabores{
     @include grid (repeat(3,2fr), repeat(2,50vh));
@@ -46,24 +55,101 @@
 
 .item1-grid{
     background-color: #A2CFE4;
-    padding: 7px 7px 7px 7px;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    img{
+        transition: transform .8s ease;
+    }
+
+}
+
+.item1-grid:hover img{
+    transform: scale(1.1);
+}
+
+.item1-grid:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(46, 159, 252, 0.7);
+    width:100%;
+    height: 100%;
+    top: 0;
+    transform: scale(1.3);
+    opacity: 0;
+    transition: transform .4s ease 0s;
+    span{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 5em;
+        color: #fff;
+        font-family: Sans-serif;
+    }
 }
 
 .item2-grid{
     background-color: #A2CFE4;
-    padding: 7px 7px 7px 7px;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    img{
+        transition: transform .8s ease;
+    }
+
+}
+
+.item2-grid:hover img{
+    transform: scale(1.1);
+}
+
+.item2-grid:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .item3-grid{
     background-color: #A2CFE4;
-    padding: 7px 7px 7px 7px;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    img{
+        transition: transform .8s ease;
+    }
+
+}
+
+.item3-grid:hover img{
+    transform: scale(1.1);
+}
+
+.item3-grid:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .item4-grid{
     background-color: #A2CFE4;
-    padding: 7px 7px 7px 7px;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    img{
+        transition: transform .8s ease;
+    }
+
+}
+
+.item4-grid:hover img{
+    transform: scale(1.1);
+}
+
+.item4-grid:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
 }
