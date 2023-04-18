@@ -18,6 +18,16 @@
     }
 }
 
+/*HTML SABORES*/
+
+.grid-sabores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 50vh);
+    align-items: center;
+    justify-items: center;
+}
+
 /*HTML UBICACION*/
     .main-ubicacion{
         section {
@@ -42,6 +52,11 @@
 /*HTML CONTACTO*/
 
 .grid-contacto{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 92vh 100vh;
+        align-items: center;
+        justify-items: center;
     section {
     padding-left: 2rem;
     padding-right: none;

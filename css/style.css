@@ -648,6 +648,13 @@ footer {
   .container-video .video-fabrica {
     width: 35rem;
     height: 40rem; }
+  /*HTML SABORES*/
+  .grid-sabores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 50vh);
+    align-items: center;
+    justify-items: center; }
   /*HTML UBICACION*/
   .main-ubicacion section div h2 {
     font-size: 1.6rem;
@@ -660,9 +667,15 @@ footer {
     width: 350px;
     height: 350px; }
   /*HTML CONTACTO*/
-  .grid-contacto section {
-    padding-left: 2rem;
-    padding-right: none; }
+  .grid-contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 92vh 100vh;
+    align-items: center;
+    justify-items: center; }
+    .grid-contacto section {
+      padding-left: 2rem;
+      padding-right: none; }
   .titulo-contacto h1 {
     font-size: 7rem;
     color: #A2CFE4;
