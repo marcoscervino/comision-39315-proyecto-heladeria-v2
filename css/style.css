@@ -44,6 +44,10 @@ html {
     margin-top: 5rem;
     margin-right: 1.5rem; }
 
+.logo:hover img {
+  transition: 1s;
+  scale: 1.05; }
+
 .navbar-brand {
   font-size: 1.6rem;
   font-family: 'Poppins', sans-serif; }
