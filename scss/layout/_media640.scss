@@ -1,5 +1,5 @@
 @media (max-width: 640px){
-
+/*SABORES*/
 .grid-sabores {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -32,4 +32,11 @@
     width: 50%;
 }
 
+}
+
+/*UBICACION*/
+
+.iframe-ubicacion {
+    width: 400px;
+    height: 400px;
 }
